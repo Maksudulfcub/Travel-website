@@ -33,6 +33,10 @@ nav ul{
     list-style: none;
 }
 
+nav ul li{
+    margin-right: -40px;
+}
+
 nav ul li a{
     font-family: Mulish;
     font-size: 18px;
@@ -55,4 +59,94 @@ nav ul li a:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+
+/* BANNER PART STYLE */
+
+.banner{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    width: 1170px;
+    height: 500px;
+    margin-top: 48px;
+}
+
+.banner-title{
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800;
+    color: #FFF;
+    text-align: center;
+    padding-top: 106px ;
+}
+
+.banner-description{
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFF;
+    line-height: 26px;
+    width: 676px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+
+.search{
+    text-align: center;
+}
+
+.trip-button{
+    padding: 14px 15px;
+    background: #FFF;
+    border-radius: 8px;
+    border: none;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.50);
+    width: 174px;
+    height: 52px;
+    text-align: justify;
+}
+
+
+.primary-button{
+    padding: 14px 15px;
+    background: #FF5400;
+    border-radius: 8px;
+    border: none;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFF;
+    width: 174px;
+    height: 52px;
+}
+
+.primary-button i{
+    margin-right: 8px;
+}
+
+.all-buttons{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    padding: 16px 16px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin: 0 auto;
+    margin-top: 48px;
+    width: 800px;
+}
+
+.btn-two i{
+    padding-left: 74px;
+}
+
+.btn-three i{
+    margin-left: 40px;
 }
