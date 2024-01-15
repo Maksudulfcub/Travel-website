@@ -150,3 +150,73 @@ nav ul li a:hover{
 .btn-three i{
     margin-left: 40px;
 }
+
+
+/* TOUR PART STYLE */
+
+.popular-tours{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tour-title{
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    color: #131318;
+}
+
+.tour-details{
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.70);
+    line-height: 26px;
+    width: 577px;
+    margin-top: 24px;
+}
+
+.tour-point{
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.70);
+    line-height: 26px;
+    width: 577px;
+    margin-left: 15px;
+    margin-top: 24px;
+}
+
+.tour-point > li{
+    margin-top: 16px;
+}
+
+.tour-description{
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    color: #5A5A5D;
+    width: 530px;
+    margin-top: 24px;
+    line-height: 26px;
+}
+
+.popular-tour-img{
+    width: 540px;
+    height: 550px;
+}
+
+.read-button{
+    padding: 14px 15px;
+    background: #FF5400;
+    border-radius: 8px;
+    border: none;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFF;
+    width: 174px;
+    height: 52px;
+    margin-top: 32px;
+}
