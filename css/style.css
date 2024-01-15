@@ -131,6 +131,11 @@ nav ul li a:hover{
     margin-right: 8px;
 }
 
+.primary-button:hover{
+    background: #E74335;
+    transition: .4s;
+}
+
 .all-buttons{
     display: flex;
     gap: 24px;
@@ -218,5 +223,123 @@ nav ul li a:hover{
     color: #FFF;
     width: 174px;
     height: 52px;
-    margin-top: 32px;
+    margin-top: 50px;
+}
+
+.read-button:hover{
+    background: #E74335;
+    transition: .4s;
+}
+
+
+/* DESTINATION PART STYLE */
+
+.destination-container{
+    margin-top: 100px;
+}
+
+.section-title{
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    color: #131318;
+}
+
+.section-description{
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.70);
+    line-height: 26px;
+    width: 643px;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+
+.section-text{
+    text-align: center;
+}
+
+.first-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.maldives-img{
+    position: relative;
+}
+
+.maldives-text{
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    color: #FFF;
+    position: absolute;
+    z-index: 1;
+    margin-left: 210px;
+    margin-top: 135px;
+}
+
+.second-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.second-row-text{
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    color: #FFF;
+    position: absolute;
+    z-index: 1;
+    margin-left: 130px;
+    margin-top: 135px;
+}
+
+.kashmir-text{
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    color: #FFF;
+    position: absolute;
+    z-index: 1;
+    margin-left: 85px;
+    margin-top: 135px;
+}
+
+.third-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.bangladesh-text{
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    color: #FFF;
+    position: absolute;
+    z-index: 1;
+    margin-left: 150px;
+    margin-top: 135px;
+}
+
+.bandarban-text{
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    color: #FFF;
+    position: absolute;
+    z-index: 1;
+    margin-left: 250px;
+    margin-top: 135px;
+}
+
+.maldives:hover{
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+    transition: .4s;
+    height: 285px;
 }
