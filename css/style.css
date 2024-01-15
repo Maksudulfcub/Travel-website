@@ -1,0 +1,16 @@
+/* COMMON SHARED STYLE */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 1440px;
+}
+
+main{
+    width: 1440px;
+}
+
+/* NAV PART STYLE */
