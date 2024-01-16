@@ -338,10 +338,8 @@ nav ul li a:hover{
 }
 
 .maldives:hover{
-    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.5);
-    border-radius: 16px;
-    transition: .4s;
-    height: 285px;
+    transform: scale(1.03);
+    transition: .5s;
 }
 
 
