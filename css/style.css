@@ -673,3 +673,146 @@ nav ul li a:hover{
     color: #131318;
     margin-top: 50px;
 }
+
+
+
+
+
+/* ========================= */
+/* RESPONSIVE MEDIA QUERIES */
+/* ======================== */
+
+@media screen and (max-width: 600px) {
+    header{
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    ul{
+        display: none;
+    }
+
+    .banner{
+        width: 580px;
+        margin-top: -10px;
+        margin-left: 10px;
+        background-position: center;
+    }
+
+    .banner-text{
+        flex-direction: column;
+    }
+
+    .banner-description{
+        width: 500px;
+        font-size: 25px;
+    }
+
+    .all-buttons, .primary-button{
+        flex-direction: column;
+        align-items: center;
+        width: 500px;
+    }
+    .all-buttons{
+        background: #FF5400;
+    }
+
+    .primary-button{
+        border: 1px solid #FFF;
+        width: 450px;
+    }
+
+    .trip-button{
+        width: 450px;
+    }
+
+    .popular-tours{
+        margin-top: 250px;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .tour-point{
+        width: 550px;
+    }
+
+    .img-side{
+        margin-top: 30px;
+    }
+
+    .section-text{
+        margin-left: -550px;
+    }
+
+    .section-description{
+        width: 550px;
+    }
+
+    .first-row, .second-row, .third-row{
+        flex-direction: column;
+    }
+
+    .indonesia-img{
+        margin-top: 20px;
+    }
+    
+    .first-row{
+        padding: 15px;
+    }
+
+    .hotel-service{
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .service-box{
+        margin-top: 20px;
+    }
+
+    .best-price{
+        margin-left: 0;
+        margin-top: 10px;
+        padding: 15px;
+    }
+
+    .perfect-place-container{
+        flex-direction: column;
+        margin-top: 0;
+        padding: 15px;
+    }
+
+    .video{
+        width: 570px;
+    }
+
+    .newsletter-container{
+        flex-direction: column;
+    }
+
+    .input-field{
+        margin-top: 40px;
+        margin-left: 60px;
+    }
+
+    .discount-card{
+        margin-left: 240px;
+    }
+
+    .img-field{
+        margin-top: 20px;
+    }
+
+    .mountain-img img {
+        width: 550px;
+        margin-left: 25px;
+    }
+
+    .footer-container{
+        height: 370px;
+    }
+
+    .footer-description{
+        width: 580px;
+        font-size: 20px;
+    }
+}
