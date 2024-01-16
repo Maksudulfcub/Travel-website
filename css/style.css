@@ -499,3 +499,129 @@ nav ul li a:hover{
     background: #E74335;
     transition: .4s;
 }
+
+
+/* NEWSLETTER PART STYLE */
+
+.newsletter-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-title{
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    color: #131318;
+}
+
+.input-description{
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    color: #5A5A5D;
+    line-height: 26px;
+    width: 350px;
+    margin-top: 16px;
+}
+
+.new-hr{
+    border-top: 1px solid rgba(19, 19, 24, 0.10);
+    width: 393px;
+    margin-top: 24px;
+}
+
+.input-box{
+    display: inline-block;
+    margin-top: 24px;
+    flex-direction: column;
+}
+
+.input-field{
+    width: 474px;
+    height: 422px;
+    padding: 40px 40px;
+    border: 1px solid #FF5400;
+    border-radius: 16px;
+}
+
+.name{
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.30);
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 393px;
+    height: 52px;
+    border: none;
+}
+
+.email{
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.30);
+    text-align: left;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 393px;
+    height: 52px;
+    border: none;
+    margin-top: 16px;
+}
+
+::placeholder {
+    padding: 16px 20px;
+  }
+
+.subscribe-button{
+    padding: 14px 15px;
+    background: #FF5400;
+    border-radius: 8px;
+    border: none;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFF;
+    width: 393px;
+    height: 52px;
+    margin-top: 24px;
+  }
+
+.subscribe-button:hover{
+    background: #E74335;
+    transition: .4s;
+}
+
+.website{
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+.discount-text{
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+    color: #FFF;
+}
+
+.discount-card{
+    border-radius: 16px;
+    background: #FF5400;
+    width: 324px;
+    height: 120px;
+    text-align: center;
+    padding: 25px 20px;
+    transform: rotate(-19.628deg);
+    margin-left: 340px;
+    margin-top: -175px;
+}
+
+.discount-card:hover{
+    transform: scale(1.04);
+    transition: .5s;
+}
