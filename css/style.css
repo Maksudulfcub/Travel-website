@@ -53,6 +53,15 @@ nav ul li a:hover{
     transition: .4s;
 }
 
+.hamburger{
+    background-color: transparent;
+    border: 0;
+    color: #5A5A5D;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+
 .nav-container{
     margin: 0 auto;
     margin-top: 50px;
@@ -287,7 +296,18 @@ nav ul li a:hover{
     margin-top: 24px;
 }
 
-.second-row-text{
+.srilanka-text{
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    color: #FFF;
+    position: absolute;
+    z-index: 1;
+    margin-left: 130px;
+    margin-top: 135px;
+}
+
+.america-text{
     font-family: Mulish;
     font-size: 28px;
     font-weight: 800;
@@ -688,15 +708,29 @@ nav ul li a:hover{
         padding: 20px;
     }
 
-    ul{
-        display: none;
+    .logo-part{
+        margin-top: -50px;
+        margin-left: -150px;
     }
 
+    nav{
+        width: 48%;
+    }
+    .hamburger{
+        display: block;
+        font-size: 28px;
+        margin-right: -150px;
+        margin-top: -40px;
+    }
+
+    nav ul {
+        display: none;
+    }
     .banner{
         width: 580px;
         margin-top: -10px;
         margin-left: 10px;
-        background-position: center;
+        background-position: center ;
     }
 
     .banner-text{
@@ -732,6 +766,10 @@ nav ul li a:hover{
         padding: 20px;
     }
 
+    .popular-tour-img{
+        width: 49%;
+    }
+
     .tour-point{
         width: 550px;
     }
@@ -752,12 +790,95 @@ nav ul li a:hover{
         flex-direction: column;
     }
 
+    .maldives-img{
+        width: 50%;
+        height: 300px;
+        margin-left: 0px;
+    }
+
+    .srilanka-img{
+        width: 49%;
+        height: 300px;
+        margin-left: 13px;
+    }
+
+    .srilanka-text{
+        font-family: Mulish;
+        font-size: 28px;
+        font-weight: 800;
+        color: #FFF;
+        position: absolute;
+        z-index: 1;
+        margin-left: 240px;
+        margin-top: 135px;
+    }
+
     .indonesia-img{
         margin-top: 20px;
+    }
+
+    .america-img{
+        width: 49%;
+        height: 300px;
+        margin-left: 13px;
+        margin-top: 15px;
+    }
+
+    .america-text{
+        margin-left: 200px;
+        margin-top: 150px;
+    }
+
+    .kashmir-img{
+        width: 49%;
+        height: 300px;
+        margin-left: 13px;
+        margin-top: 15px;
+    }
+
+    .kashmir-text{
+        margin-left: 230px;
+        margin-top: 150px;
+    }
+
+    .bangladesh-img{
+        width: 49%;
+        height: 300px;
+        margin-left: 13px;
+        margin-top: 15px;
+    }
+
+    .bangladesh-text{
+        margin-left: 220px;
+        margin-top: 150px;
+    }
+
+    .bandarban-img{
+        width: 49%;
+        height: 300px;
+        margin-left: 13px;
+        margin-top: 15px;
+    }
+
+    .bandarban-text{
+        margin-left: 220px;
+        margin-top: 150px;
     }
     
     .first-row{
         padding: 15px;
+    }
+
+    .second-row{
+        margin-top: 0px;
+    }
+
+    .third-row{
+        margin-top: 0px;
+    }
+
+    .choose-us-container, .destination-container{
+        margin-top: 40px;
     }
 
     .hotel-service{
@@ -767,6 +888,10 @@ nav ul li a:hover{
 
     .service-box{
         margin-top: 20px;
+    }
+
+    .price-box{
+        margin-top: -20px;
     }
 
     .best-price{
